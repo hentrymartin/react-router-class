@@ -37,7 +37,7 @@ class Students extends Component {
 
         <Route path="/students/details/:class" component={StudentDetails} />
 
-        <div onClick={this.goToUsersPage}>Go To Users</div>
+        <Link to="/users">Go To Users</Link>
       </div>
     );
   }
